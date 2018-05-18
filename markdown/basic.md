@@ -1,6 +1,8 @@
 # Rust Basic
 
 - !로 끝나는 함수는 매크로 함수
+- Expression 지향, Chargeless 언어
+
 
 ```rust
 // 주석
