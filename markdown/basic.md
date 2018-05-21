@@ -14,7 +14,7 @@ fn main(){
     println!("The game");
     println!("{0},{1}",MAX_HEALTH,GAME_NAME); // 문자열 포매팅
     println!("{point}",point = 10); // 명명된 인수 사용
-    
+     
 }
 
 

@@ -46,7 +46,7 @@ fn main(){
 
 ### 벡터
 
-> 임의의 타입을 가지는 가변 배열, 스택과 같음
+> 임의의 타입을 가지는 가변 배열, 스택에 배열을 더한 느낌
 
 ```rust
 fn main() {
@@ -80,6 +80,50 @@ let (name, _, power) = thor; // 비구조화 할당
 
 ### 구조체
 
+```rust
+struct Kilograms{
+    name : &'static str,
+    health : i32,
+    level: u8
+}
+
+fn main(){
+    let mut kilo = Kilograms {name : "lee", health : 100, level: 2};
+    kilo.level; // 구조체 변수 사용
+    let Kilograms {name, health ,..} = kilo; // 비구조화 할당
+    println!("{} / {}",name,health)
+}
+
+```
+
+### 열거체
+
+```rust
+enum Compass {
+    North,South,East,West
+}
 
 
+fn main(){
+    let direction = Compass::North;
+}
+```
+
+### Result & Option
+
+> 결과는 표준라이브러리에 정의된 열거체의 특별한 종류. 결과는 뭔가가 실행될때마다 Ok,Err 중하나가 됌. <br>
+> 옵션은 또 다른 특별한 열거체로,  값이 존재하는 경우 Some, 값이 없는 경우는 None
+
+```rust
+use std::io;
+
+fn main() {
+    //ok는 결과값을 옵션 값으로반환하고, expect는 오류가 발생했을떄 값을 제공하거나 메세지를 보여줌
+    io::stdin()
+            .read_line(&mut buf)
+            .ok()
+            .expect("Error!");
+    
+}
+```
 

@@ -1,5 +1,7 @@
 # 조건문
 
+- if 문
+
 ```rust
 
 fn main(){
@@ -23,5 +25,50 @@ fn main(){
 }
 ```
 
+- match 문
+
+```rust
+
+let loki = ("Loki", true, 800u32); 
+    match loki {
+        (name, demi, _) if demi => {
+                                    print!("This is a demigod ");
+                                    println!("called {}", name); },
+        (name, _, _) if name == "Thor" =>
+                                    println!("This is Thor!"),
+        (_, _, pow) if pow <= 1000 =>
+                                   rintln!("This is a powerless god"),
+        _ => println!("This is something else")
+}
+
+```
+
 # 반복문
+
+- loop 문
+
+```rust
+loop{   // 무한루프
+    if a > 5 { break }
+}
+```
+
+- while 문
+
+```rust
+while a > 5 {
+
+}
+```
+
+- for 문
+
+
+```rust
+for n in 1..11{
+
+}
+```
+
+
 

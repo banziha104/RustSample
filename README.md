@@ -14,4 +14,16 @@
 
 - ### ![데이터 구조화](https://github.com/banziha104/RustSample/blob/master/markdown/datastruct.md)
 
+- ### ![클로져](https://github.com/banziha104/RustSample/blob/master/markdown/closuer.md)
+
+- ### ![반복자, 컨슈머, 어댑터](https://github.com/banziha104/RustSample/blob/master/markdown/iterator.md)
+
+- ### ![오류 처리](https://github.com/banziha104/RustSample/blob/master/markdown/errorHandling.md)
+
+- ### ![트레잇](https://github.com/banziha104/RustSample/blob/master/markdown/trait.md)
+
+- ### ![Basic](https://github.com/banziha104/RustSample/blob/master/markdown/basic.md)
+
+- ### ![Basic](https://github.com/banziha104/RustSample/blob/master/markdown/basic.md)
+
 - ### ![Basic](https://github.com/banziha104/RustSample/blob/master/markdown/basic.md)
