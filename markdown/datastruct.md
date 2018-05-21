@@ -96,6 +96,34 @@ fn main(){
 
 ```
 
+- 구조체에 메서드를 정의
+
+```rust
+struct Student{
+    name : &'static str,
+    age : i32
+}
+
+impl Student {
+    fn new(name :&'static str, age : i32) -> Student{
+        Student{name,age }
+    }
+    fn get_name(&self) -> &'static str{
+        self.name
+    }
+    fn get_age(&self) -> i32{
+        self.age
+    }
+}
+
+fn main() {
+    let a = Student::new("dd",21);
+    println!("{},{}",a.get_name(),a.get_age());
+    println!("{},{}",Student::get_age(&a),Student::get_name(&a));
+
+}
+```
+
 ### 열거체
 
 ```rust
