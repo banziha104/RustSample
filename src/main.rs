@@ -1,8 +1,9 @@
 use std::thread;
 
+
+fn returnFormat(i : i32) -> String{
+    format!("{}",i)
+}
 fn main() {
-    thread::spawn(move || {
-        println!("Hello!!!!!!!!!!!!!!!!!!");
-    }).join();
-    thread::sleep_ms(50);
+    println!("{}",returnFormat(30));
 }

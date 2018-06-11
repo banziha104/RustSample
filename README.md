@@ -30,6 +30,6 @@
 
 - ### [매크로](https://github.com/banziha104/RustSample/blob/master/markdown/macro.md)
 
-- ### [동시성과 병렬성](https://github.com/banziha104/RustSample/blob/master/markdown/basic.md)
+- ### [동시성과 병렬성](https://github.com/banziha104/RustSample/blob/master/markdown/parallel.md)
 
-- ### [동시성과 병렬성](https://github.com/banziha104/RustSample/blob/master/markdown/basic.md)
+- ### [경](https://github.com/banziha104/RustSample/blob/master/markdown/basic.md)
